@@ -72,6 +72,17 @@ a:active {
   color: DarkGoldenRod;
 }
 
+
+.button {
+  background-color: #FDB927;
+  color: darkorchid;
+  border: 2px solid darkorchid;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: darkorchid;
+}
 //User Selected Colors
     //Change the Users Background Color
     //background-color: <%= @profile.background_color %>
